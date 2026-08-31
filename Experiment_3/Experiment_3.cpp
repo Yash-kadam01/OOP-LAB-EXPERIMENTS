@@ -41,4 +41,5 @@ int main() {
 
     cout << "\n--- Exiting Program ---\n";
     return 0;
+    cout << endl;
 }
