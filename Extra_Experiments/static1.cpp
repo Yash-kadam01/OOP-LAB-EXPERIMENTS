@@ -5,6 +5,8 @@ class Employee{
     public:
     Employee(){
         employeeId++;
+    }
+    static void displayEmployeeId(){
         cout<<"Employee ID: "<<employeeId<<endl;
     }
 };
@@ -13,5 +15,6 @@ int main(){
     Employee e1;
     Employee e2;
     Employee e3;
+    Employee::displayEmployeeId();
     return 0;
 } 
